@@ -1,8 +1,21 @@
 .cis260specialpurple {
     color: #754b8e
-    
-    
 }
 
 
-#cis-special-parent a {color: #6c9ab2}
+#cis-special-parent a {
+    color: #6c9ab2
+}
+
+
+header {
+    display: flex;
+    align-items: center
+
+}
+
+@media screen and (max-width: 40rem) {
+
+    header {
+        flex-direction: column
+    }
