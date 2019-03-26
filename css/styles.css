@@ -1,21 +1,46 @@
+body {
+    background-image: linear-gradient(#754b8e, #8FA5CE);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    */
+    /*    background-image: linear-gradient(rgba(0, 0, 0, .2) rgba(0, 0, 0, .9)), url(http://cdn.shopify.com/s/files/1/0862/8040/products/MH1576_800x.jpg?v=1516250965);*/
+}
+
+
 .cis260specialpurple {
-    color: #754b8e
+    color: #4e315f;
 }
 
 
 #cis-special-parent a {
-    color: #6c9ab2
+    color: #2d5e77;
+
 }
 
 
 header {
     display: flex;
     align-items: center
-
 }
 
 @media screen and (max-width: 40rem) {
 
     header {
         flex-direction: column
+    }
+
+    .containter__item {
+
+            {
+            border: 2px solid #ff0000;
+            border-radius: 15px;
+            box-shadow: 5px 5px 5px #828282;
+
+            background-color: darkseagreen;
+            opacity: .2;
+
+
+        }
+
     }
