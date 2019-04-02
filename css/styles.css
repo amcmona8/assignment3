@@ -11,10 +11,9 @@ body {
     background-size: cover;
     background-position: center;
     min-height: 100vh;
-    flex-direction: row @media */
-        /*    background-image: linear-gradient(rgba(0, 0, 0, .2) rgba(0, 0, 0, .9)), url(http://cdn.shopify.com/s/files/1/0862/8040/products/MH1576_800x.jpg?v=1516250965);*/
+    
 }
-
+      
 #div box {
 
     box-sizing: border-box; margin: 0; color: darkmagenta;
@@ -37,7 +36,7 @@ header {
     display: flex;
     align-items: center
 }
-}
+
 
 header {}
 
@@ -62,8 +61,3 @@ header {}
                 flex-direction: column;
             }
 
-
-
-
-
-        }
